@@ -1,0 +1,28 @@
+# Allow tracking all files except ignored ones
+!*
+
+# Ignore Python virtual environments
+env/
+venv/
+
+.env
+*.env
+
+# Ignore compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database files
+db.sqlite3
+*.mysql
+
+# Ignore logs
+*.log
+
+# Ignore migrations cache (optional)
+migrations/**/__pycache__/
+
+# Ignore pytest cache
+.pytest_cache/
